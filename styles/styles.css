@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&family=Inter:wght@400;700&display=swap');
+
+body{
+    width: 100%;
+    position: relative;
+
+    background-color: #000000;
+}
+
+.navigation{
+    margin-top: 44px;
+    margin-bottom: 60px;
+    max-height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation__list{
+    display: flex;
+    gap: 43px;
+}
+
+.navigation__link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main__title{
+    margin-bottom: 90px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 133px;
+
+    letter-spacing: -0.07em;
+
+    color: #FF25C2;
+}
+
+.main__text{
+    position: absolute;
+    top: 266px;
+    max-width: 430px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+}
+
+.main__img{
+    max-width: 819px;
+    margin-bottom: 70px;
+}
+
+.earCards{
+    margin-bottom: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 80px;
+}
+
+.earCard{
+    width: 1150px;
+    height: 644px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+}
+
+.earCard__title{
+    max-width: 375px;
+
+    padding-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 149px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 93.52%;
+
+    letter-spacing: -0.05em;
+
+    color: #FFFFFF;
+}
+
+.earCard__img{
+    max-width: 141px;
+    max-height: 142px;
+
+    margin-left: 50px;
+    margin-bottom: 30px;
+
+    border-radius: 30px;
+}
+
+.earCard__button-wrapper{
+    max-width: 420px;
+    height: 110px;
+}
+
+.earCard__button{
+    width: 100%;
+    height: 100%;
+
+    margin-left: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.earCard-EarWhite{
+    background-image: url('../resources/EarWhiteBackground.jpg');
+}
+
+.earCard-EarBlack{
+    background-image: url('../resources/EarBlackBackground.png');
+}
+
+.functions{
+    height: 786px;
+
+    margin-bottom: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 39px;
+
+    background-image: url('../resources/Mans.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.functions__title{
+    max-width: 560px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 73.52%;
+
+    text-align: center;
+    letter-spacing: -0.06em;
+
+    color: #FF25C2;
+}
+
+.functions__text{
+    max-width: 671px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+}
+
+.trenings{
+    margin-bottom: 150px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 80px;
+}
+
+.trenings__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 73.52%;
+
+    text-align: center;
+    letter-spacing: -0.06em;
+
+    color: #FF25C2;
+}
+
+.trenings__block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    max-width: 507px;
+}
+
+.trenings__icon-wrapper{
+    width: 54px;
+    height: 54px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #FF25C2;
+    border-radius: 100px;
+}
+
+.trenings__icon{
+    width: 16px;
+    height: 16px;
+}
+
+.trenings__text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+}
+
+.advantage{
+    height: 1040px;
+
+    margin-bottom: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url('../resources/Women.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.advantage__title{
+    max-width: 1150px;
+
+    margin-bottom: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 73.52%;
+
+    text-align: center;
+    letter-spacing: -0.06em;
+
+    color: #FFFFFF;
+}
+
+.advantage__text{
+    max-width: 942px;
+
+    margin-bottom: 60px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 90%;
+
+    text-align: center;
+    letter-spacing: -0.06em;
+
+    color: #FFFFFF;
+}
+
+.advantage__button{
+    width: 866px;
+    height: 110px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+
+    background-color: rgba(0, 0, 0, 0);
+}
